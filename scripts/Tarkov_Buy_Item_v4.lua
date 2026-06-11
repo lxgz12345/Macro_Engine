@@ -21,7 +21,9 @@ settings = {
 }
 
 -- ── 配置 ──────────────────────────────────────────────────────
-local WEBHOOK_KEY = "***REDACTED***"
+-- 从 scripts/config.lua 中读取 WEBHOOK_KEY（该文件已被 .gitignore 忽略）
+-- 请复制 config.example.lua → config.lua 并填入真实 Key
+import("config")
 
 -- ── 辅助函数 ──────────────────────────────────────────────────
 
